@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="2F47QdG=K=|uV?farEU#" x="-775" y="-966"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_play_note" id="Z*[Je=cs{zhHuSJ+U3[N"><value name="note"><shadow type="device_note" id="$seYg:^u;J.qTdG=.IBk"><field name="name">294</field></shadow></value><value name="duration"><shadow type="device_beat" id="1y6GrUT)rd-snVUQYiJ3"><field name="fraction">BeatFraction.Quarter</field></shadow></value><next><block type="device_play_note" id="@cbpN!oP/#^x?}VdHBEW"><value name="note"><shadow type="device_note" id="m7|{jrD2nw[AV{KXM+HP"><field name="name">440</field></shadow></value><value name="duration"><shadow type="device_beat" id="TVno8Rd|MM09}8{C:nym"><field name="fraction">BeatFraction.Quarter</field></shadow></value><next><block type="device_play_note" id="+d9w+3($DW@dJ2{jfrjZ"><value name="note"><shadow type="device_note" id=".~EuB6~Iz_b)[l@-q~4k"><field name="name">392</field></shadow></value><value name="duration"><shadow type="device_beat" id="{EuOEK(yK=i0?[Rxa|FO"><field name="fraction">BeatFraction.Quarter</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="lB|4*XwQNr~j]bg8@Q)k" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="HfoEL]BP*{BZWA+bNKvx"><value name="TIMES"><shadow type="math_whole_number" id="WIV=RTY!;~k@B0EcVn0?"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="device_show_leds" id="yC~u1|*(qu[A7be^CX=w"><field name="LEDS">`
+        . # . . # 
+        . # . # . 
+        . . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="!]bULw)9D})2$#:7oZj7"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement></block></statement></block></xml>
